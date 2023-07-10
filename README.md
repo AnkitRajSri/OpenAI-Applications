@@ -1,2 +1,1 @@
-
 # GPT Sentiment Detector
