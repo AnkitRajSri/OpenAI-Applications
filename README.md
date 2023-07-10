@@ -4,7 +4,7 @@
 
 The GPT Sentiment Detector App contains the following modules:
 * A `notebooks` module which contains the analysis work saved in a jupyter notebook, `SentimentDetectorChatGPT.ipynb`.
-* A `scripts` module which contains the functionality to detect sentiment of a text prompt saved in `sentiment_detector.py`.
+* A `detector` module which contains the functionality to detect sentiment of a text prompt saved in `sentiment_detector.py`.
 * An `app.py` file which contains the web app view, built using streamlit.
 
 ## Project setup
