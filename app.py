@@ -13,11 +13,11 @@ def main():
     This is the main application function.
     :return: A webpage of the gpt-sentiment-detector-app.
     """
-    col_1, col_2 = sl.columns([0.85, 0.15])
+    col_1, col_2 = sl.columns([0.70, 0.30])
     with col_1:
         sl.title("GPT Sentiment Detector")
     with col_2:
-        sl.image("ai.jpg", width=70)
+        sl.image("sentiments_ai.jpeg", width=200)
 
     with sl.form(key="ai_form"):
         default_emotions = "positive, negative, neutral"
