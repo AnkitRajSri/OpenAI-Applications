@@ -17,7 +17,7 @@ def main():
     with col_1:
         sl.title("GPT Sentiment Detector")
     with col_2:
-        sl.image("sentiments_ai.jpeg", width=200)
+        sl.image("files/sentiments_ai.jpeg", width=200)
 
     with sl.form(key="ai_form"):
         default_emotions = "positive, negative, neutral"
