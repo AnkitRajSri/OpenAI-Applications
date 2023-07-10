@@ -1,8 +1,18 @@
+"""
+This is the main application module to run the steamlit app
+"""
+
+# Import the dependencies
 import streamlit as sl
 from detector.sentiment_detector import gpt_detect_sentiment
 
 
+# Main function
 def main():
+    """
+    This is the main application function.
+    :return: A webpage of the gpt-sentiment-detector-app.
+    """
     col_1, col_2 = sl.columns([0.85, 0.15])
     with col_1:
         sl.title("GPT Sentiment Detector")
@@ -35,5 +45,6 @@ def main():
                 sl.text_area(label="History", value=sl.session_state["history"], height=400)
 
 
+# Execute the main function
 if __name__ == "__main__":
     main()
