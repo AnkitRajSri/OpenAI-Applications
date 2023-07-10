@@ -1,6 +1,6 @@
 # GPT Sentiment Detector
 
-![](sentiments_ai.jpeg)
+![](files/sentiments_ai.jpeg)
 
 The GPT Sentiment Detector App contains the following modules:
 * A `notebooks` module which contains the analysis work saved in a jupyter notebook, `SentimentDetectorChatGPT.ipynb`.
