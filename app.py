@@ -1,5 +1,5 @@
 import streamlit as sl
-from app.sentiment_detector import gpt_detect_sentiment
+from detector.sentiment_detector import gpt_detect_sentiment
 
 
 def main():
