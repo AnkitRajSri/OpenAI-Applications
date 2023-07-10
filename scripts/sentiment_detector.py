@@ -32,9 +32,9 @@ def gpt_detect_sentiment(prompt, emotions):
         temperature=0
     )
 
-    r = response.choices[0].message.content
-    if r == "":
+    content = response.choices[0].message.content
+    if content == "":
         return "N/A"
-    return r
+    return content
 
 
